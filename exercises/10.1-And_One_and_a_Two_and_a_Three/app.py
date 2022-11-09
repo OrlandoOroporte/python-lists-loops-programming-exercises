@@ -4,4 +4,9 @@ contact = {
     "email": "test@test.com"
 }
 #Your code here:
+def resp (obj):
+    for i in obj:
+        print(i + ' : ',obj[i])
+
+print(resp(contact))
 

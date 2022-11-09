@@ -13,3 +13,8 @@ tasks = [
 
 #Your code go here:
 
+filList = list(filter(lambda e: e['done']== True, tasks))
+
+print(filList)
+
+

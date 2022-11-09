@@ -3,4 +3,9 @@ coordinatesList = [[33.747252,-112.633853],[-33.867886, -63.987],[41.303921, -81
 
 # Your code go here:
 
+def long (obj):
+    for i  in obj:
+        print(i[1])
+
+long(coordinatesList)
 
